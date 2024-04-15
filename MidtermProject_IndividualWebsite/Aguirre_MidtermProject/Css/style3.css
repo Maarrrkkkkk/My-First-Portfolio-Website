@@ -1,0 +1,139 @@
+body {
+  font: 20px 'Poppins', sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+  background-color :#101010 ;
+}
+
+p {
+  font-size: 30px;
+  color: #fff;
+}
+
+.p2 {
+  margin-bottom: 120px;
+}
+
+h3 {
+  font-size: 50px;
+}
+
+.margin {
+  margin-bottom: 45px;
+  color: cyan;
+  font-weight: bold;
+}
+
+
+.bg-3 {
+  background: url(bg3.jpg);
+  color: #555555;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* border:5px solid cyan;*/
+}
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 10px;
+  letter-spacing: 5px;
+  background-color: black;
+  font-weight: bold;
+}
+
+.navbar-nav li a.active {
+  background-color: #f9004d;
+  border-radius: 5px;
+  color: white;
+}
+
+.navbar-nav li a:hover {
+  color: #f9004d !important;
+  transition: .5s;
+}
+
+.navbar-brand span {
+  color: cyan;
+  text-shadow: 0 0 20px cyan,
+    0 0 40px cyan,
+    0 0 60px cyan;
+}
+
+/*.school {
+  font-size: 50px;
+  color: #f9004d;
+  background-color: black;
+  padding: 1.5rem;
+}
+*/
+
+/*.highschool {
+  font-size: 50px;
+  color: #f9004d;
+  background-color: black;
+  padding: 1.5rem;
+}
+
+.university {
+  font-size: 50px;
+  color: #f9004d;
+  background-color: black;
+  padding: 1.5rem;
+}
+*/
+
+/*.row{
+  border:5px solid red;
+}*/
+.col-sm-4 {
+  background-color: #101010;
+  opacity: 0.9;
+  height: 600px;
+  justify-content: center;
+  border-image: linear-gradient(#f9004d , black, cyan) 30;
+  border-width: 10px;
+  border-style: solid;
+}
+
+p span {
+  color: cyan;
+}
+hr {
+  width: auto;
+  margin: 1px 300px;
+  border: 0;
+  height: 5px;
+  background: #a60000;
+  background-image: -webkit-linear-gradient(left,orange ,#f9004d , cyan);
+  border-radius: 5px;
+}
+#logo {
+  color: #f9004d;
+  text-shadow: 0 0 20px #f9004d,
+    0 0 40px #f9004d,
+    0 0 60px #f9004d,
+    0 0 80px #f9004d,
+    0 0 100px #f9004d,
+    0 0 120px #f9004d;
+}
+img{
+  width:200px;
+  height:100px;
+  cursor:pointer;
+  border-image: linear-gradient(orange, #f9004d , cyan) 30;
+  border-width: 5px;
+  border-style: solid;
+  padding: 5px ;
+}
